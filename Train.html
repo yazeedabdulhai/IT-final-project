@@ -2,7 +2,31 @@
 <html>
 <head>
 	<title>Booking Train Ticket</title>
-	<link rel="stylesheet" type="text/css" href="TrainStyle.css"> 
+	<link rel="stylesheet" type="text/css" href="TrainStyle.css">
+	<script type="text/javascript">
+		function Cost()
+		{
+			var value=0;
+			var Classes=document.getElementById("Classes").value;
+			if(Classes == "1")
+			{
+				var cost_per_one_seat=150;
+			}else if(Classes == "2")
+			{
+				var cost_per_one_seat=100;
+			}else{
+				var cost_per_one_seat=50;
+			}
+			var n= document.getElementById("Nseats").value;
+
+			value=cost_per_one_seat*n;
+
+			localStorage.setItem("cost",value);
+
+              
+            localStorage.setItem("Number",n);
+       }
+	</script>
 </head>
 <body>
 <header>
@@ -23,30 +47,30 @@
 </header>
 
 <section>
-		<form action="" method="post" id="regester">
+		<form action="TrainReciept.html" method="post" id="regester">
 			<label id= "title">Make your trip</label><br><br><br>
 			<hr>
 			<div id="input">
 			<label>Pick-up Location</label><br>
-			<input type="text" name="upLocation" id="upLocation" placeholder="City,Airport,Station,etc" required/><br><br>
+			<input type="text" name="upLocation" placeholder="City,Station" required><br><br>
 
 			<label>Drop-off Location</label><br>
-			<input type="text" name="offLocation" id="offLocation" placeholder="City,Airport,Station,etc" required/><br><br>
+			<input type="text" name="offLocation" placeholder="City,Station" required><br><br>
 
 			<label>Pick-up Date/Time</label><br>
-			<input type="datetime-local" name="Date/Time" id="send" oninput="result.value=send.value"><br><br>
+			<input type="datetime-local" name="Date/Time" oninput="result.value=send.value" required><br><br>
 
 			<label>Number of Seats</label><br>
-			<input type="Number" name="Nseats" id="Nseats" placeholder="0"><br><br>
+			<input type="Number" id="Nseats" placeholder="0" required><br><br>
 
 			<label>Travel Class</label>
 			<select id="Classes">
-				<option value="1">1st Class</option>
-				<option value="2">2st Class</option>
-				<option value="3">Economy Class</option>
+				<option value="1" id="1st">1st Class</option>
+				<option value="2" id="2nd">2st Class</option>
+				<option value="3" id="3rd">Economy Class</option>
 			</select><br><br><br>
 		    </div>
-		    <input type="button" name="Search" id="button" value="Search">
+		    <input type="submit" value="Submit" name="Search" id="button" onclick="javascript:Cost();">
 		</form>
 		<h1><b>WE DO OUR BESTS<br>TO MAKE YOUR TRIP MORE<br>COMFORTABLE!!</b></h1>
 </section>
