@@ -1,0 +1,166 @@
+*{
+	margin:0 px auto;
+	padding:0 px;
+	font-family:century gothic;
+
+}
+body{
+	background-image: url(juan-encalada-6mcVaoGNz1w-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment:fixed;
+	height:100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    background-color: ;
+	  padding:0;
+    overflow: hidden;
+ 
+  }
+
+  
+  
+   li{
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    margin:3px;
+    text-decoration: none;
+  	color:white;
+  	font-weight: bold;
+  	font-family:Tahoma, Geneva, sans-serif;
+  }
+  .active{
+  	color: orange;
+  }
+  
+  li a:hover {
+    color: orange;
+  }
+.logo{
+	float:left;
+	font-size: 26px;
+	width: 100px;
+	margin:28px;
+	margin-left: 0px;
+	padding-left: 0px; 
+	font-family: 'Anton', sans-serif;
+	font-weight: bolder;
+	color: white;
+	margin-left: 50px;
+}
+
+
+
+.head{
+	
+	max-width:1500px;
+	margin:auto;
+}
+
+	
+
+.button{
+		position:absolute;
+	top:70%;
+	left:50%;
+	transform:translate(-50%,50%)
+	
+}
+.btn{
+	border:1px solid orange;
+	padding:10px 30px;
+	color:orange;
+	text-decoration:none;
+	transition:0.8s ease;
+	
+}
+.btn:hover{
+	background-color:orange;
+	color:white;
+	
+}p ul{margin: 0px;
+	list-style: none;
+	padding: 0px;
+}
+
+span{
+	color: orange;
+}
+#wrapper {
+    display: flex; 
+    height: 200px;   
+}
+
+#first {
+	margin-top:15%; 
+	color: white;
+	font-size: 22px;
+}
+
+#second {
+	margin-left: 35%;
+	margin-top: 3%;
+	width: 44%;
+	margin-right:140px;
+
+
+}
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+
+}
+
+/* Full-width input fields */
+input[type=text]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text].payy{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: red;
+}
+
+input[type=text]:focus{
+  background-color: #ddd;}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: orange;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+i{
+	font-weight: bold;
+	font-size: 13px;
+}

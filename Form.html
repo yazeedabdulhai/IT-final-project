@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reciept</title>
+	<style type="text/css">
+		*{
+	margin:0 px auto;
+	padding:0 px;
+	font-family:century gothic;
+
+}
+body{
+	background-image: url(juan-encalada-6mcVaoGNz1w-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment:fixed;
+	height:100%;
+}
+p{
+	color: black;
+	font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    background-color: ;
+	  padding:0;
+    overflow: hidden;
+ 
+  }
+
+  
+  
+   li{
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    margin:3px;
+    text-decoration: none;
+  	color:white;
+  	font-weight: bold;
+  	font-family:Tahoma, Geneva, sans-serif;
+  }
+  .active{
+  	color: orange;
+  }
+  
+  li a:hover {
+    color: orange;
+  }
+.logo{
+	float:left;
+	font-size: 26px;
+	width: 100px;
+	margin:28px;
+	margin-left: 0px;
+	padding-left: 0px; 
+	font-family: 'Anton', sans-serif;
+	font-weight: bolder;
+	color: white;
+	margin-left: 50px;
+}
+
+
+
+.head{
+	
+	max-width:1500px;
+	margin:auto;
+}
+
+span{
+	color: orange;
+}
+.Contactinfo{
+	margin-left: 200px;
+	margin-top: 40px;
+	font-size: 25px;
+	color: black;
+	background-color: #ddd;
+	width: 400px;
+	padding: 15px;
+	border-radius: 20px;
+	margin-left: 70%;
+	border: 1px solid grey;
+	
+}
+	</style>
+
+
+</head>
+<body>
+	<header>
+       <div class="head">
+	   <div class="logo">Fast<span>Link</span></div>
+	   
+	   <ul>
+	    <li><a href="#" >Home</a></li>
+		<li><a href="#">Trains</a></li>
+		<li><a href="#">Cars</a></li>
+		<li><a href="#"class="active">Buses</a></li>
+		<li><a href="#">About</a></li>
+	   
+	   </ul>
+	    </header>
+<div class="Contactinfo">
+       	<h2>Contact Info..</h2>
+       	<hr>
+       	</br>Adress: Street 90 ,New Cairo ,Fue</br><hr>
+        Email: FastLink@Gmail.com</br><hr>
+        Phone  : 123-456-7890</br>
+        <h2><b>Your Reciept...</b><hr></h2><p id="result"></p><p id="result2"></p>
+
+        
+
+       </div>
+       
+	
+<script type="text/javascript">
+	document.getElementById("result").innerHTML="1."+"Please Pay:  $"+localStorage.getItem("textvalue")*50;
+	document.getElementById("result2").innerHTML="2."+" Seats Left on The Bus is : "+(100-localStorage.getItem("textvalue"));
+
+</script>
+</body>
+</html>
