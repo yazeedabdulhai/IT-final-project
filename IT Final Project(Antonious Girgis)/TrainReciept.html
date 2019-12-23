@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reciept</title>
+	<style type="text/css">
+		body
+{
+	background-image: url("Train.jpg");
+	background-size: cover;
+	margin:0;
+}
+#header_nav_right li
+{
+	float: right;
+	font-weight: bold;
+	display: inline-block;
+	font-family: arial;
+	font-size: 20px;
+}
+#header_nav_left li 
+{
+	float: left;
+	margin-left: 15px;
+	font-weight: bold;
+	display: inline-block;
+	font-family: arial;
+	font-size: 20px;
+}
+ul li a.active
+{
+	color: darkblue;
+}
+ul li a:hover
+{
+	color:darkred;
+}
+li a
+{
+	text-decoration: none;
+	color: white;
+}
+#link
+{
+	margin: 0px;
+}
+#display{
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 60px;
+	font-size: 25px;
+	color: black;
+	background-color: white;
+	width: 400px;
+	padding: 15px;
+	border-radius: 20px;
+	margin-left: 70%;
+	border: 1px solid grey;
+	
+}
+	</style>
+</head>
+<body>
+	<header>
+	<div id="header_nav_right">
+		<ul>
+		<li style="color:white"><a href="" id="content_5">LOGIN</a></li>
+	    </ul>
+	</div>
+	<div id="header_nav_left">
+        <ul>
+        	<li><h3 id="link"><b style="color: white;">Fast</b><b style="color: darkblue;">Link</b></h3></li>
+        	<li><a href="" id="content_1">Home</a></li>
+            <li><a href="" id="content_2">CARS</a></li>
+            <li><a href="" id="content_3">BUSSES</a></li>
+			<li><a href="index.html" id="content_4" class="active">TRAINS</a></li>
+        </ul>
+    </div>
+</header>
+<section>
+
+	<div id="display">
+       	<h2>Contact Info..</h2>
+       	<hr>
+       	</br>Adress: Street 90 ,New Cairo ,Fue</br><hr>
+        Email: FastLink@Gmail.com</br><hr>
+        Phone  : 123-456-7890</br>
+        <h2><b>Your Reciept...</b><hr></h2><p id="result"></p><p id="result2"></p>
+       </div>
+
+   <script type="text/javascript">
+	document.getElementById("result").innerHTML="1."+"The Total Price : "+localStorage.getItem("cost")+"$";
+	document.getElementById("result2").innerHTML="2."+"Remaining Seats : "+(100-localStorage.getItem("Number"));
+</script>
+
+</section>
+</body>
+</html>
