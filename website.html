@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>NewWEB</title>
+<link rel="stylesheet" type="text/css" href="Style.css">
+</link>
+<script type="text/javascript">
+	
+	
+	
+	function start()
+	{
+		var x=document.getElementById("numOfSeats").value;
+		
+		localStorage.setItem("textvalue",x);
+
+		
+	}
+
+
+	
+		
+</script>
+</head>
+<body>
+   <header>
+       <div class="head">
+	   <div class="logo">Fast<span>Link</span></div>
+	   
+	   <ul>
+	    <li><a href="#" >Home</a></li>
+		<li><a href="#">Trains</a></li>
+		<li><a href="#">Cars</a></li>
+		<li><a href="#"class="active">Buses</a></li>
+		<li><a href="#">About</a></li>
+	   
+	   </ul>
+	    </header>
+       </div>
+    
+<div id="wrapper">
+		    <div class="txt" id="first">
+				<h2>The<br>Easiest and the most Effient way to book a bus to any city</h2>
+			</div>
+
+			<div class="main-car" id="second">
+	            <form action="Form.html" method="get">
+				  <div class="container">
+				    <h1>Make your trip</h1>
+				    <hr>
+
+				    <label for="Pick-up"><b>Pick-up location</b></label>
+				    <input type="text" placeholder="City, Airport, Station, etc" required>
+
+				    <label for="Drop-off"><b>Drop-off location</b></label>
+				    <input type="text" placeholder="City, Airport, Station, etc" required>
+
+				    <label for="Pick-up date"><b>Pick-up date</b></label>
+				    <input type="text" placeholder="dd/mm/yyyy" required>
+
+				    <label for="Pick-up date"><b>Pick-up time</b></label>
+				    <input type="text" placeholder="hour:min" required>
+				    <label for="Num Of seats"><b>Num of seats</b></label>
+				    <input type="text" id="numOfSeats" placeholder="0" pattern="[0-9]" required>
+				     
+				   
+				    <hr>
+                    <i>1 Seat Costs $50</i>
+				    <button type="submit" value="click" class="registerbtn"onclick="start();">Search Vehicle</button>
+				  </div>
+	            </form>
+			</div>
+	</div>
+  
+
+  
+</body>
+</html>
