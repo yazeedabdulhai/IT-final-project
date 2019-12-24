@@ -1,0 +1,332 @@
+body{margin:0;
+}
+#text{padding:15px 60px;}
+
+
+h1,h2,p,label{font-family:Tahoma, Geneva, sans-serif;}
+
+#end{background-color:#333;
+padding-bottom:128px;
+color:white;
+font-family:Tahoma, Geneva, sans-serif;
+font-size:12px;
+}
+a {
+    text-decoration: none;
+    color: #008CBA;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+	padding:0;
+    overflow: hidden;
+ 
+  }
+  
+   li{
+    float: left;
+  }
+  #tbldiv{
+  position:absolute;
+  left:65%;
+  top:10%;
+  text-align:center;
+  padding: 16px;
+  }
+  
+ #element{
+    display: block;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+	color:white;
+	font-weight: bold;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 21px;
+  }
+  
+  #element:hover {
+    background-color: #ddd;
+  }
+  
+  li a.name {
+    color: white;
+    background-color: #4d4b4b;
+  }
+  #main{ background-image:url("p/Webp.net-gifmaker.gif");
+  height: 850px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-attachment:fixed;}
+  
+  
+  .container {
+  padding: 16px;
+  background-color: white;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: #0d0d0d;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+  font-size: 20px;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+#wrapper {
+    display: flex;  
+height: 200px; 	
+}
+.txt{
+		font-size: 30px;
+		color: white;
+		margin-left: 3%;
+	    font-family:Tahoma, Geneva, sans-serif;
+}
+#first {
+	margin-top:15%; 
+}
+#second {
+	margin-left: 36%;
+	margin-top: 1%;
+	background-color: white;
+	width:24%;
+}
+#seconds {
+	margin-left: 35%;
+	margin-top: 3%;
+	width: 44%;
+	margin-right:140px;
+
+
+}
+#carshero{
+ background-image:url("p/hero_1.jpg");
+  height: 850px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-attachment:fixed;
+} 
+
+.border{
+height: 2px;
+width: 40px;
+background:white; 
+}
+#quik{
+
+list-style-type: none;
+margin: 0;
+padding: 0;
+width:100px;
+}
+#qll{
+  color:white;
+  text-decoration: none;
+  display: block;
+
+}
+#footer-txt{
+
+color:white;
+
+}
+#color-icon{
+
+  color:white;
+}
+.main-footer{
+width:1309px;
+padding: 20px;
+background:#333333;
+display:block;
+font-family:sans-serif;
+}
+
+.cntnt-footer{
+  width:95%;
+  margin:auto;
+  padding:30px 10px;
+  box-sizing: border-box;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.ftr-items {
+width:25%;   
+padding: 10px 20px;
+box-sizing: border-box;
+
+}
+
+#maindiv{
+  position:absolute;
+  width:27%;
+  height: 70%;
+  margin-left: 65%;
+  margin-top: 5%;
+}
+
+input[type=text],input[type=date],input[type=Number],input[type=time],#Classes,input[type=datetime-local]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+#mainlogin{ 
+  background-image:url("p/bkk.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment:fixed;
+}
+#psw{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+#regester
+{
+	width: 300px;
+	background-color: white;
+	position:  absolute;
+	top: 70px;
+	left:70%;
+	padding: 30px;
+}
+#input
+{
+	margin-left: 5%;
+	font-weight: bold;
+	font-size: 20px;
+}
+#button
+{
+	background-color: #0d0d0d;
+	padding: 15px 103px;
+	color: white;
+	font-weight: bold;
+	font-family:Tahoma, Geneva, sans-serif;
+	border: 0px;
+	margin-left: 5%;
+	width: 90%;
+}
+
+#title
+{
+	font-weight: bold;
+	font-size: 35px;
+	margin-left: 10%;
+}
+#trainsh1
+{
+	position: absolute;
+	margin-left: 5%;
+	margin-top: 15%;
+	color: white;
+	font-size: 50px;
+}
+#link
+{
+	margin: 0px;
+}  
+#trainmain
+{
+  background-image:url("p/159966.jpg");
+  height:950px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-attachment:fixed;
+}
+
+#bussesmain{
+	background-image: url(p/juan-encalada-6mcVaoGNz1w-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment:fixed;
+	height:1000px;
+}
+
+.head{
+	
+	max-width:1500px;
+	margin:auto;
+}
+#recieptmain{
+	background-image: url(p/juan-encalada-6mcVaoGNz1w-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment:fixed;
+	height:950px;
+}
+*{
+	margin:0 px auto;
+	padding:0 px;
+	font-family:century gothic;
+
+}
+.Contactinfo{
+	margin-left: 180px;
+	margin-top: 40px;
+	color: black;
+	background-color: white;
+	width: 400px;
+	padding: 15px;
+	margin-left: 60%;
+	border: 1px solid grey;
+	
+}
+#result,#result2{
+	color: black;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+#carsrmain{
+  background-image: url("p/bg_1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment:fixed;
+  height:100%;
+  background-attachment:fixed;
+}
+.Recieptcar{
+  border: 1px solid grey;
+  background-color: white;
+  width: 300px;
+  margin-left: 70%;
+  margin-top: 5%;
+  padding: 15px;
+}
+#reciepttrainmain{
+	background-image: url(p/159966.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment:fixed;
+	height:950px;
+}
+  
