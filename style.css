@@ -1,0 +1,179 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 	
+}
+h1,h2,p,label{font-family:Tahoma, Geneva, sans-serif;}
+a {
+  text-decoration: none;
+  color: #008CBA;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding:0;
+  overflow: hidden;
+}
+li{
+  float: left; 
+} 
+ #element{
+  display: inline-block;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+	color:white;
+	font-weight: bold;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 21px;
+}
+#element:hover {
+  background-color: #ddd;
+} 
+li a.name {
+  background-color: #4d4b4b;
+}
+#main{ 
+  background-image:url("p/Webp.net-gifmaker.gif");
+  height: 850px;
+  background-position: center;
+  background-size: cover;
+  background-attachment:fixed;
+} 
+.container {
+  padding: 16px;
+  background-color: white;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+  margin-top: 4%;
+}
+.registerbtn {
+  background-color: #0d0d0d;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+  font-size: 20px;
+  margin-left: 9%;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+#wrapper {
+  display: flex;  
+  height: 200px; 	
+}
+.txt{
+	font-size: 30px;
+	color: white;
+	margin-left: 6%;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+#first 
+{
+	margin-top:15%; 
+}
+#second {
+	margin-left: 33%;
+	margin-top: 3%;
+	width: 25%;
+	margin-right:30px;
+}
+#carshero{
+  background-image:url("p/hero_1.jpg");
+  height: 850px;
+  background-position: center;
+  background-size: cover;
+  background-attachment:fixed;
+}
+#quik{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:100px;
+}
+#qll{
+  color:white;
+}
+#footer-txt{
+  color:white;
+}
+#color-icon{
+  color:white;
+}
+.main-footer{
+  background:#333333;
+}
+.cntnt-footer{
+  width:95%;
+  margin:auto;
+  padding:30px 10px;
+  box-sizing: border-box;
+  display:flex;
+  margin-left: 15%;
+}
+.ftr-items {
+  width:25%;   
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+#maindiv{
+  position:absolute;
+  width:27%;
+  height: 70%;
+  margin-left: 65%;
+  margin-top: 5%;
+}
+input[type=text],input[type=date],input[type=Number],input[type=email],input[type=time],#Classes,input[type=datetime-local],input[type=password]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px -2px;
+  border: none;
+  height:50px;
+  background: #f1f1f1;
+}
+#mainlogin{ 
+  background-image:url("p/bkk.jpeg");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment:fixed;
+}
+#trainmain
+{
+  background-image:url("p/159966.jpg");
+  height: 850px;
+  background-position: center;
+  background-size: cover;
+  background-attachment:fixed;
+}
+#bussesmain{
+	background-image: url(p/juan-encalada-6mcVaoGNz1w-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment:fixed;
+	height:1000px;
+}
+*{
+	margin:0 ;
+	padding:0;
+	font-family:century gothic;
+}
+.Contactinfo{
+	margin-top: 40px;
+	background-color: white;
+	width: 400px;
+	padding: 15px;
+	margin-left: 60%;
+	border: 1px solid grey;	
+}
+
+
+  
